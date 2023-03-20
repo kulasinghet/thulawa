@@ -53,9 +53,9 @@ a {
   display: inline-block; }
 
 a {
-  color: #DE3660; }
+  color: #cb6f00; }
   a:hover {
-    color: #DE3660; }
+    color: #cb6f00; }
 
 audio,
 canvas,
@@ -139,7 +139,7 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: #DE3660; }
+  background-color: #cb6f00; }
   @media (max-width: 767px) {
     .main-btn {
       padding: 0 25px;
@@ -148,18 +148,18 @@ p {
       font-size: 14px; } }
   .main-btn:hover {
     background-color: #fff;
-    color: #DE3660;
-    border-color: #DE3660;
+    color: #cb6f00;
+    border-color: #cb6f00;
     -webkit-box-shadow: 0px 6px 20px 0px rgba(222, 54, 96, 0.15);
     -moz-box-shadow: 0px 6px 20px 0px rgba(222, 54, 96, 0.15);
     box-shadow: 0px 6px 20px 0px rgba(222, 54, 96, 0.15); }
   .main-btn.main-btn-2 {
     background-color: #fff;
-    color: #DE3660;
-    border-color: #DE3660; }
+    color: #cb6f00;
+    border-color: #cb6f00; }
     .main-btn.main-btn-2:hover {
-      background-color: #DE3660;
-      border-color: #DE3660;
+      background-color: #cb6f00;
+      border-color: #cb6f00;
       color: #fff; }
 
 .section_title .title {
@@ -215,7 +215,7 @@ p {
           .header_top .header_info ul li a {
             font-size: 14px; } }
         .header_top .header_info ul li a:hover {
-          color: #DE3660; }
+          color: #cb6f00; }
   .header_top .header_social {
     padding-top: 15px; }
     .header_top .header_social ul li {
@@ -231,7 +231,7 @@ p {
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
         .header_top .header_social ul li a:hover {
-          color: #DE3660; }
+          color: #cb6f00; }
 
 /*===== NAVBAR =====*/
 .header_navbar {
@@ -431,7 +431,7 @@ p {
         color: #192127; }
         .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
           padding-left: 25px;
-          color: #DE3660; }
+          color: #cb6f00; }
 
 .navbar-nav .sub-nav-toggler {
   display: none; }
@@ -598,13 +598,13 @@ p {
       transform: translateX(-50%);
       border: 0; }
     .slider-active .slick-dots li.slick-active button {
-      background-color: #DE3660; }
+      background-color: #cb6f00; }
 
 /*===========================
        04.ABOUT css 
 ===========================*/
 .about_law_title {
-  border-right: 4px solid #DE3660;
+  border-right: 4px solid #cb6f00;
   padding-top: 50px;
   padding-bottom: 50px; }
   @media (max-width: 767px) {
@@ -667,7 +667,7 @@ p {
       top: 4px; }
       .about_content .about_list li .about_check i {
         font-size: 25px;
-        color: #DE3660; }
+        color: #cb6f00; }
     .about_content .about_list li .about_list_content {
       padding-left: 15px; }
       .about_content .about_list li .about_list_content .title {
@@ -733,7 +733,7 @@ p {
     transition: all 0.3s ease-out 0s;
     color: #38424D; }
     .single_practice .practice_content .practice_title a:hover {
-      color: #DE3660; }
+      color: #cb6f00; }
   .single_practice .practice_content p {
     margin-top: 18px; }
   .single_practice .practice_content .more {
@@ -747,10 +747,10 @@ p {
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s; }
     .single_practice .practice_content .more:hover {
-      color: #DE3660; }
+      color: #cb6f00; }
 
 .single_practice:hover .practice_icon i {
-  background-color: #DE3660;
+  background-color: #cb6f00;
   color: #fff; }
 
 /*===========================
@@ -777,7 +777,7 @@ p {
       font-size: 26px; } }
   .call_action_content .action_title span {
     font-size: 66px;
-    color: #DE3660; }
+    color: #cb6f00; }
     @media (max-width: 767px) {
       .call_action_content .action_title span {
         font-size: 36px; } }
@@ -853,7 +853,7 @@ p {
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
         .single_lawyer .lawyer_image .social li a:hover {
-          background-color: #DE3660; }
+          background-color: #cb6f00; }
 
 .single_lawyer .lawyer_content {
   margin-top: 25px; }
@@ -867,7 +867,7 @@ p {
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s; }
     .single_lawyer .lawyer_content .lawyer_name a:hover {
-      color: #DE3660; }
+      color: #cb6f00; }
   .single_lawyer .lawyer_content p {
     margin-top: 5px;
     font-weight: 300; }
@@ -950,7 +950,7 @@ p {
         transform: translateX(-50%);
         border: 0; }
       .testimonial_active .slick-dots li.slick-active button {
-        background-color: #DE3660; }
+        background-color: #cb6f00; }
 
 .single_testimonial .testimonial_image {
   position: relative; }
@@ -971,7 +971,7 @@ p {
       height: 50px;
       line-height: 50px;
       text-align: center;
-      background-color: #DE3660;
+      background-color: #cb6f00;
       font-size: 26px;
       color: #fff;
       border-radius: 50%; }
@@ -1015,7 +1015,7 @@ p {
       .single_blog .blg_content .blog_title a {
         font-size: 20px; } }
     .single_blog .blg_content .blog_title a:hover {
-      color: #DE3660; }
+      color: #cb6f00; }
   .single_blog .blg_content p {
     margin-top: 25px; }
   .single_blog .blg_content .more {
@@ -1029,7 +1029,7 @@ p {
     transition: all 0.3s ease-out 0s;
     margin-top: 15px; }
     .single_blog .blg_content .more:hover {
-      color: #DE3660; }
+      color: #cb6f00; }
 
 /*===========================
         10.CONTACT css 
@@ -1071,7 +1071,7 @@ p.form-message.success, p.form-message.error {
   .contact_content .contact_info .info_title {
     font-size: 30px;
     font-weight: 600;
-    color: #DE3660; }
+    color: #cb6f00; }
     @media (max-width: 767px) {
       .contact_content .contact_info .info_title {
         font-size: 20px; } }
@@ -1207,7 +1207,7 @@ p.form-message.success, p.form-message.error {
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
         .footer_link .link li a:hover {
-          color: #DE3660; }
+          color: #cb6f00; }
 
 .footer_social .social {
   padding-top: 20px; }
@@ -1239,9 +1239,9 @@ p.form-message.success, p.form-message.error {
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
       .footer_social .social li a:hover {
-        color: #DE3660; }
+        color: #cb6f00; }
         .footer_social .social li a:hover i {
-          background-color: #DE3660; }
+          background-color: #cb6f00; }
 
 .footer_copyright .copyright {
   border-top: 1px solid rgba(219, 219, 219, 0.45);
@@ -1261,7 +1261,7 @@ p.form-message.success, p.form-message.error {
   height: 45px;
   line-height: 45px;
   border-radius: 5px;
-  background-color: #DE3660;
+  background-color: #cb6f00;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1272,4 +1272,4 @@ p.form-message.success, p.form-message.error {
   display: none; }
   .back-to-top:hover {
     color: #fff;
-    background-color: #DE3660; }
+    background-color: #cb6f00; }
