@@ -278,7 +278,8 @@ p {
     width: 134px; }
 
 .navbar-nav .active a {
-  opacity: 0.6; }
+  opacity: 0.6;
+  color: #cb6f00; }
 
 .navbar-toggler {
   padding: 0; }
