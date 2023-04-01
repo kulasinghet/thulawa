@@ -1,3 +1,18 @@
 #nav a:hover {
     color: #cb6f00;
 }
+
+#team .sub-title {
+    color: #cb6f00;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .section_title .title {
+        font-size: 26px; }
+}
+
+.sticky_about {
+    background: #1a3350;
+}
