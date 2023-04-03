@@ -279,7 +279,7 @@ p {
 
 .navbar-nav .active a {
   opacity: 0.6;
-  color: #cb6f00; }
+  color: #cb6f00 !important; }
 
 .navbar-toggler {
   padding: 0; }
