@@ -312,6 +312,83 @@ p {
     transform: rotate(135deg);
     top: -7px; }
 
+    /* Sub Nav-bar */
+    .navbar .subnav {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .navbar .subnav .subnavbtn { 
+      margin-top: 10px !important;
+      margin-right: 25px !important;
+      border: none;
+      outline: none;
+      color: rgb(255, 255, 255);
+      background-color: inherit;
+      margin: auto;
+    }
+
+    .navbar .subnav .subnavbtn:hover {
+      color: #cb6f00;
+    }
+
+    @media screen and (max-width: 991px) {
+      .navbar .subnav .subnavbtn {
+        margin-top: 2px !important;
+        margin-bottom: 2px !important;
+        color: #192127;
+      }
+
+      .navbar .subnav-content {
+        display: flex !important;
+        visibility: hidden;
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-around !important;
+      }
+
+      .navbar .subnav:hover .subnav-content {
+        visibility: visible;
+      }
+
+      .navbar .subnav-content a {
+        padding: 10px;
+      }
+    }
+    
+    .navbar .subnav-content {
+      display: flex;
+      visibility: hidden;
+      flex-direction: row;
+      justify-content: space-around;
+      left: 0;
+      margin: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      position: absolute;
+      background-color: #1a3350;
+      width: 100%;
+      z-index: 1;
+    }
+    
+    .navbar .subnav-content a {
+      padding: 10px;
+      float: left;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+    
+    .navbar .subnav-content:hover a {
+      /* background-color: #eee; */
+      color: rgb(241, 234, 234);
+    }
+    
+    .navbar .subnav:hover .subnav-content {
+      visibility: visible;
+    }
+
+    /* Sub Nav-bar - end */
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-collapse {
     position: absolute;
@@ -339,11 +416,11 @@ p {
     padding: 5px 12px; } }
 
 .navbar-nav .nav-item {
-  margin-right: 45px;
+  margin-right: 25px;
   position: relative; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .navbar-nav .nav-item {
-      margin-right: 30px; } }
+      margin-right: 15px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-nav .nav-item {
       margin: 0; } }
