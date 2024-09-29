@@ -316,6 +316,8 @@ p {
     .navbar .subnav {
       float: left;
       overflow: hidden;
+      font-family: "Roboto", sans-serif;
+      font-size: 17px;
     }
     
     .navbar .subnav .subnavbtn { 
@@ -683,8 +685,8 @@ p {
 ===========================*/
 .about_law_title {
   border-right: 4px solid #cb6f00;
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-top: 10px;
+  padding-bottom: 10px; }
   @media (max-width: 767px) {
     .about_law_title {
       padding-top: 30px;
@@ -1351,3 +1353,47 @@ p.form-message.success, p.form-message.error {
   .back-to-top:hover {
     color: #fff;
     background-color: #cb6f00; }
+
+  .guidelines{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f00;
+  }
+
+  .btn {
+    display: block;
+    background-color: #cb6f00;
+    margin: 20px 30px 0px 30px;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+
+  .fixed-button{
+    background-color: #fff;
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    bottom: 10%;
+    right: 0;
+    z-index: 999;
+    border-radius: 50px 0 0 50px;
+  }
+
+  .fixed-button-download {
+    background-color: #cb6f00;
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    bottom: 10%;
+    right: 0;
+    z-index: 999;
+    border-radius: 50px 0 0 50px;
+  }
+
+  .fixed-button-download a {
+    color: white;
+  }
