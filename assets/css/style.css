@@ -588,21 +588,14 @@ p {
        03.SLIDER css 
 ===========================*/
 .single_slider {
-  height: 800px;
-  position: relative; }
-  @media only screen and (min-width: 1400px) {
-    .single_slider {
-      height: 900px; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .single_slider {
-      height: auto; } }
-  @media (max-width: 767px) {
-    .single_slider {
-      height: auto; } }
+  display: block;
+  height: 100vh;
+  position: relative; 
+}
   .single_slider::before {
     position: absolute;
     content: '';
-    background-color: rgba(25, 33, 39, 0.54);
+    background-color: rgba(8, 8, 8, 0.637);
     width: 100%;
     height: 100%;
     left: 0;
@@ -612,28 +605,28 @@ p {
   padding-top: 80px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider_content {
-      padding-top: 230px;
+      padding-top: 200px;
       padding-bottom: 130px; } }
   @media (max-width: 767px) {
     .slider_content {
-      padding-top: 230px;
+      padding-top: 200px;
       padding-bottom: 130px; } }
   .slider_content .slider_title {
-    font-size: 55px;
+    font-size: 45px;
     color: #fff;
     margin-top: 15px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .slider_content .slider_title {
-        font-size: 48px; } }
+        font-size: 38px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .slider_content .slider_title {
-        font-size: 50px; } }
+        font-size: 40px; } }
     @media (max-width: 767px) {
       .slider_content .slider_title {
-        font-size: 28px; } }
+        font-size: 26px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .slider_content .slider_title {
-        font-size: 38px; } }
+        font-size: 28px; } }
   .slider_content p {
     font-size: 18px;
     line-height: 30px;
@@ -651,7 +644,7 @@ p {
 .slider-active .slick-dots {
   position: absolute;
   left: 50%;
-  bottom: 80px;
+  bottom: 20px;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
